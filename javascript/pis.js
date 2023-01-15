@@ -9,3 +9,6 @@ function decrement() {
   document.getElementById("count").innerHTML = count;
 }
   
+function save(){
+  console.log(count)
+}

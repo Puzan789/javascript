@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Title</title>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="card" style="height: 20rem; width: 40rem; background-color: darkgreen; color: white;">
+        <div class="container d-flex justify-content-center mt-5">
+            <div class="div">
+        <h1 style="color:goldenrod" class="fw-bold">Black jack</h1>
+        <p id="message">Want to play a round?</p>
+        <p id="card">Cards:</p>
+        <p class="summ">sum:</p>
+        <button class="btn btn-sm btn-danger" onclick="startgame()"> Start game</button>
+        <button class="btn btn-sm btn-danger d-block mt-2" onclick="newcard()">New Card</button>
+
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="./card.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
